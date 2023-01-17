@@ -22,13 +22,17 @@ header {
   height: auto;
   position: fixed;
   margin-left: -50%;
-
+  border-bottom-right-radius: 15px;
+  
   
  
 }
 
 body {
-  background-image: url('./assets/background.jpg');
+  background-color: rgb(22, 49, 20);
+   background-image: url('./assets/background.jpg'); 
+ 
+  
   background-size: 160%, auto;
   background-repeat: no-repeat;
   
@@ -52,7 +56,7 @@ body {
   padding-bottom: 5px;
   background-color: transparent;
   border: none;
-  width: 48px;
+  width: 60px;
   height: 48px;
   justify-content: center;
   align-items: center;
@@ -393,7 +397,7 @@ span {
 
 @media screen and (min-width: 1000px) {
   body {
-    background-size: 150%, auto;
+    background-size: 100%, auto;
   }
 }
 

@@ -35,7 +35,7 @@ function Uk({setLanuage, uk, ukraine, calculate_age, myPhoto, tik, HiPeople, thi
           
         </div>
        
-        <body>
+        <body >
           
           <div className='content'>
           <div id='content1' className='about-me'>
